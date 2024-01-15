@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+
+*{
+    font-style: none;
+}
+
+.container{
+    background: linear-gradient(45deg, #f4816d, #e76e74, 	#d06580, #b85c8a, #975c9f);
+    padding: 0;
+    background-size: 300% 300%;
+    animation: color ease-in-out 12s infinite;
+}
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+
+#glass_container_1{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 100px;
+    font-family: 'genos', sans-serif;
+    font-weight: bolder;
+}
+
+#glass_container_2{
+    height: 100vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'lemon', sans-serif;
+}
+
+#button1{
+    color: white;
+    background: linear-gradient(45deg ,#c31432, #240b36);
+    animation: button1 ease-in-out 5s infinite;
+    background-size: 300% 300%;
+    border-radius: 7px;
+    padding: 5px;
+    font-family: 'space grotesk', sans-serif;
+}
+
+@keyframes button1 {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+
+#para1{
+    font-size: 30px;
+}
